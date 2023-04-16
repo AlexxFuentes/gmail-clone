@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*INICIO botones nav*/
+.item-nav{
+    /*border: 1px solid grey;*/
+    color: #ffffff26;
+    font-weight: 500;
+    border-radius: 0px 20px 20px 0px;
+    margin: 5px 15px 5px 0px;
+    text-align: start;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.item-nav:hover{
+    color: white;
+    background-color: rgba(247, 108, 108, 0.685);
+}
+
+.item-nav-active{
+    color: red;
+    background-color: rgba(231, 69, 69, 0.315);
+}
+
+/*FIN botones nav*/
+
+.msj-leido{
+    font-weight: 500;
+}
+
+.marcar-leido{
+    color: rgb(18, 231, 18);
+}
+
+.gold-color{
+    color: gold;
+}
+
+.mt {
+    margin-top: 58px;
+}
+
+.div-redactar{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-top: 40%;
+}
+
+.input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fff;/*#fff*/
+}
+
+img{
+    margin-left: 15px;
+}
+
+.btn-redactar{
+    background-color: white;
+    margin: 10px 30px 10px 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.navbar-lateral {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -300px;
+    background-color: white;/*#7952b3*/
+    transition: 0.4s;
+    border: 1px solid grey;
+}
+
+.nav-link {
+    font-size: 1.25em;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #ffffff26;/*ffffff26*/
+}
+
+.dropdown-menu {
+    background-color: #7952b3;
+}
+
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #ffffff26;
+}
+
+.my-container {
+    transition: 0.4s;
+}
+
+/* for navbar */
+.active-nav {
+    margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+    margin-left: 250px;
+}
+
+#menu-btn {
+    background-color: white;/*#7952b3*/
+    color: #fff;
+}
+
+#menu-btn:focus {
+    box-shadow: 0 0 0 0.25rem #7952b344;
+}

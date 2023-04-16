@@ -1,0 +1,21 @@
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 14px 14px 0px 0px;
+    width: 30%;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
+/* Modal Header */
+.modal-header {
+    color: white;
+    background-color: rgb(59, 59, 59);
+    border-radius: 12px 12px 0px 0px;
+    padding: 2px 16px;
+}
+/* Modal Body */
+.modal-body {
+    padding: 2px 16px;
+}
